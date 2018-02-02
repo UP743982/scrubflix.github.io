@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="description" content="Scrublix is a web application providing information about movies">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/multimedia/100/play_movie_3-512.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Scrublix</title>
+</head>
+<body>
+<div class="scrubflix">SCRUBFLIX</div>
+<ul>
+  <li><a class="active" href="#movies">Movies</a></li>
+  <li><a href="#saved">Saved Movies/TVs</a></li>
+
+<div class="dropdown">
+    <button style="font-family: 'Raleway', sans-serif;" class="dropbtn">Genres 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#horror">Horror</a>
+      <a href="#comedy">Comedy</a>
+      <a href="#adventure">Adventure</a>
+      <a href="#action">Action</a>
+      <a href="#musical">Musical</a>
+    </div>
+  </div> 
+
+<div class="dropdown">
+    <button style="font-family: 'Raleway', sans-serif;" class="dropbtn">Select Theme 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#horror">Black/Gold</a>
+      <a href="#comedy">White/Green</a>
+    </div>
+  </div> 
+
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input class="inputText" type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</ul>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
