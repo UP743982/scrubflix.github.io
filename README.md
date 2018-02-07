@@ -11,5 +11,5 @@
 # Three people are working on the front-end of the application.
 
 # Team leaders: 
-# Front-End: Lukas (UP743982)
+# Front-End: Lukas (UP743982/lukas112)
 # Back-End: Robert (UP773227)
