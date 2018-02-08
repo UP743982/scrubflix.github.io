@@ -1,0 +1,40 @@
+Create Database Scrubflix;
+
+CREATE TABLE USER
+(UserID INT(2) PRIMARY KEY,
+User_FNAME CHAR(10),
+User_LNAME CHAR(10),
+User_Email CHAR(30),
+User_DOB DATE);
+
+CREATE TABLE MOVIES
+(MovieID INT(2) PRIMARY KEY,
+Movie_Title CHAR(30),
+Movie_Release_date DATE,
+Movie_Genre CHAR(10));
+
+INSERT INTO USER
+VALUES
+(1, 'Lukas', 'Ruzevicius', 'UP873424@myport.ac.uk', '1995-11-21');
+INSERT INTO USER
+VALUES
+(2, 'Robert', 'Gibbs', 'Robert.gibbs@gmail.com', '1995-04-15');
+INSERT INTO USER
+VALUES
+(3, 'Harry', 'Smith', 'UP985301@myport.ac.uk', '1982-02-01');
+INSERT INTO USER
+VALUES
+(4, 'Steven', 'Jones', 'Stevey.Jo@yahoo.co.uk', '2001-05-19');
+
+INSERT INTO MOVIES
+VALUES
+(1, 'Pirates of the Caribbean', '2003-05-08', 'Action/Adventure');
+INSERT INTO MOVIES
+VALUES
+(2, 'Star Wars: The Last Jedi', '2017-12-14', 'Sci-Fi');
+INSERT INTO MOVIES
+VALUES
+(3, 'Jaws', '1975-12-26', 'Thriller');
+INSERT INTO MOVIES
+VALUES
+(4, 'Jigsaw', '2017-10-26', 'Horror');
