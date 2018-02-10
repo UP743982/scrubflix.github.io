@@ -7,13 +7,16 @@
     <meta name="description" content="Scrublix is a web application providing information about movies">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/multimedia/100/play_movie_3-512.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/imagehover.css" rel="stylesheet" media="all">
-    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Scrublix</title>
 </head>
-<body>
+<body id="background-image">
+
 <div class="scrubflix">SCRUBFLIX</div>
+<div class="topmenu">
 <ul>
   <li><a class="active" href="#movies">Movies</a></li>
   <li><a href="#saved">Saved Movies/TVs</a></li>
@@ -49,6 +52,58 @@
   </div>
 </ul>
 
+</div>
+
+
+<!--  **************************************************** CAROUSEL **************************** -->
+<!--  **************************************************** CAROUSEL **************************** -->
+
+<div style="max-width:2000px" class="container, fitScreen" style="width: 100%">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/carousel1.jpg" style="width:100%">
+  </div>
+      </div>
+
+      <div class="item">
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/carousel2.jpg" style="width:100%">
+  </div>
+      </div>
+    
+      <div class="item">
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/carousel3.jpg" style="width:100%">
+  </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<!--  ********************************************** CAROUSEL **************************** -->
+<!--  **************************************************** CAROUSEL **************************** -->
+
+
+
+
+
+
 
 <div class="main">
 <div class="row">
@@ -56,7 +111,7 @@
 
 
   <div class="column">
-    <div class="container">
+    <div class="container2">
     <a href="#Jaws"><img id="myImg" class="image" src="images/poster1.jpg"></a>
     <a href="#Jaws"><div class="overlay">
       <div class="text">X-MEN: The Last Stand</div>
@@ -72,7 +127,7 @@
 
 
   <div class="column">
-    <div class="container">
+    <div class="container2">
     <a href="#PiratesOfTheCAribbean"><img id="myImg" class="image" src="images/poster2.jpg"></a>
     <a href="#PiratesOfTheCAribbean"><div class="overlay">
       <div class="text">Spider-Man 2</div>
@@ -88,7 +143,7 @@
 
 
   <div class="column">
-    <div class="container">
+    <div class="container2">
     <a href="#LordOfWar"><img id="myImg" class="image" src="images/poster3.jpg"></a>
     <div class="overlay">
       <a href="#LordOfWar"><div class="text">Gladiator</div></a>
@@ -104,7 +159,7 @@
 
 
   <div class="column">
-    <div class="container">
+    <div class="container2">
     <img id="myImg" class="image" src="images/poster4.jpg">
     <div class="overlay">
       <div class="text">Spider-Man 3</div>
@@ -120,7 +175,7 @@
 
 
     <div class="column">
-      <div class="container">
+      <div class="container2">
     <img id="myImg" class="image" src="images/poster5.jpg">
     <div class="overlay">
       <div class="text">IceAge</div>
@@ -136,7 +191,7 @@
 
 
     <div class="column">
-      <div class="container">
+      <div class="container2">
     <img id="myImg" class="image" src="images/poster6.jpg">
     <div class="overlay">
       <div class="text">The Magneto</div>
@@ -153,7 +208,7 @@
 
 
   <div class="column">
-    <div class="container">
+    <div class="container2">
     <a href="#Jaws"><img id="myImg" class="image" src="images/poster1.jpg"></a>
     <a href="#Jaws"><div class="overlay">
       <div class="text">X-MEN: The Last Stand</div>
@@ -169,7 +224,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
     <a href="#Jaws"><img id="myImg" class="image" src="images/poster1.jpg"></a>
     <a href="#Jaws"><div class="overlay">
       <div class="text">X-MEN: The Last Stand</div>
@@ -185,7 +240,7 @@
 
 
   <div class="column">
-    <div class="container">
+    <div class="container2">
     <a href="#Jaws"><img id="myImg" class="image" src="images/poster1.jpg"></a>
     <a href="#Jaws"><div class="overlay">
       <div class="text">X-MEN: The Last Stand</div>
