@@ -11,54 +11,52 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Scrublix</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Movie details, Release dates, Scrubflix information about movies</title>
 </head>
 <body id="background-image">
 
-<div class="scrubflix">SCRUBFLIX</div>
-<div class="topmenu">
-<ul>
-  <li><a class="active" href="#movies">Movies</a></li>
-  <li><a href="#saved">Saved Movies/TVs</a></li>
-
-<div class="dropdown">
-    <button style="font-family: 'Raleway', sans-serif;" class="dropbtn">Genres 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#horror">Horror</a>
-      <a href="#comedy">Comedy</a>
-      <a href="#adventure">Adventure</a>
-      <a href="#action">Action</a>
-      <a href="#musical">Musical</a>
+<!-- Navbar -->
+<div class="w3-top">
+  <div style="background-color: #262626; font-family: 'Raleway'" class="w3-bar w3-small w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a style = "color: white" href="#movies" class="w3-bar-item w3-button w3-padding-large w3-hover-black">MOVIES</a>
+    <a style = "color: white" href="#top20" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hide-small">TOP20</a>
+<div class="w3-dropdown-hover w3-hover-black w3-hide-small">
+      <button style = "color: white" class="w3-padding-large w3-hover-black w3-button" title="More">SELECT THEME <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-hover w3-bar-block w3-card-4">
+        <a href="#theme1" class="w3-bar-item w3-button">Black/White</a>
+        <a href="#theme2" class="w3-bar-item w3-button">Gold/Green</a>
+      </div>
     </div>
-  </div> 
-
-<div class="dropdown">
-    <button style="font-family: 'Raleway', sans-serif;" class="dropbtn">Select Theme 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#horror">Black/Gold</a>
-      <a href="#comedy">White/Green</a>
+    <div class="w3-dropdown-hover w3-hover-black w3-hide-small">
+      <button style = "color: white" class="w3-padding-large w3-hover-black w3-button" title="More">GENRES <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-hover w3-bar-block w3-card-4">
+        <a href="#horror" class="w3-bar-item w3-button">Horror</a>
+        <a href="#comedy" class="w3-bar-item w3-button">Comedy</a>
+        <a href="#adventure" class="w3-bar-item w3-button">Adventure</a>
+        <a href="#mussical" class="w3-bar-item w3-button">Musical</a>
+        <a href="#action" class="w3-bar-item w3-button">Action</a>
+      </div>
     </div>
-  </div> 
-
-  <div class="search-container">
+      <div class="search-container">
     <form action="/action_page.php">
       <input class="inputText" type="text" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
   </div>
 </ul>
-
+  </div>
 </div>
 
 
+
 <!--  **************************************************** CAROUSEL **************************** -->
 <!--  **************************************************** CAROUSEL **************************** -->
 
-<div style="max-width:2000px" class="container, fitScreen" style="width: 100%">
+<div style="max-width:2000px" class="fitScreen" style="width: 100%">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 
