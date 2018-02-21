@@ -19,37 +19,54 @@
 <body id="background-image">
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div style="background-color: #262626; font-family: 'Raleway'" class="w3-bar w3-small w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a style = "color: white" href="#movies" class="w3-bar-item w3-button w3-padding-large w3-hover-black">MOVIES</a>
-    <a style = "color: white" href="#top20" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hide-small">TOP20</a>
-<div class="w3-dropdown-hover w3-hover-black w3-hide-small">
-      <button style = "color: white" class="w3-padding-large w3-hover-black w3-button" title="More">SELECT THEME <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-hover w3-bar-block w3-card-4">
-        <a href="#theme1" class="w3-bar-item w3-button">Black/White</a>
-        <a href="#theme2" class="w3-bar-item w3-button">Gold/Green</a>
-      </div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+      <a href="index.html" class="navbar-brand">SCRUBFLIX</a>
     </div>
-    <div class="w3-dropdown-hover w3-hover-black w3-hide-small">
-      <button style = "color: white" class="w3-padding-large w3-hover-black w3-button" title="More">GENRES <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-hover w3-bar-block w3-card-4">
-        <a href="#horror" class="w3-bar-item w3-button">Horror</a>
-        <a href="#comedy" class="w3-bar-item w3-button">Comedy</a>
-        <a href="#adventure" class="w3-bar-item w3-button">Adventure</a>
-        <a href="#mussical" class="w3-bar-item w3-button">Musical</a>
-        <a href="#action" class="w3-bar-item w3-button">Action</a>
-      </div>
-    </div>
+    <div class="collapse navbar-collapse" id="mainNavBar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Movies</a></li>
+        <li><a href="top20.html">Top20</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Change Theme <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                <li><a href="#">Black/Gold</a></li>
+                <li><a href="#">White/Green</a></li>
+          </ul>
+        </li>
+
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Genres <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Horror</a></li>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Comedy</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
       <div class="search-container">
     <form action="/action_page.php">
       <input class="inputText" type="text" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
   </div>
-</ul>
+    </div>
+
+
   </div>
-</div>
+
+
+
+</nav>
 
 
 
@@ -110,9 +127,17 @@
 
   <div class="column">
     <div class="container2">
-    <a href="#Jaws"><img id="myImg" class="image" src="images/poster1.jpg"></a>
-    <a href="#Jaws"><div class="overlay">
-      <div class="text">X-MEN: The Last Stand</div>
+    <a href="#X-MEN-TheLastStand"><img id="myImg" class="image" src="images/poster1.jpg"></a>
+    <a href="#X-MEN-TheLastStand"><div class="overlay">
+      <div class="text">
+      <p style="font-size: 20px">X-MEN:<br> The Last Stand</p>
+      <p style="font-size: 10px">IMDB Rating: 6.7</p>
+    <span style="color: yellow" class="fa fa-star"></span>
+    <span style="color: yellow" class="fa fa-star"></span>
+    <span style="color: yellow" class="fa fa-star"></span>
+    <span style="color: yellow" class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+      </div>
       </div></a>
     </div>
     <img id="myImg" src="images/poster1.jpg">
@@ -123,11 +148,26 @@
   </div>
 
 
+  <div class="column">
+    <div class="container2">
+    <a href="#LordOfWar"><img id="myImg" class="image" src="images/poster3.jpg"></a>
+    <div class="overlay">
+      <a href="#LordOfWar"><div class="text">Gladiator</div></a>
+      </div>
+    </div>
+    <img id="myImg" src="images/poster3.jpg">
+    <img id="myImg" src="images/poster3.jpg">
+    <img id="myImg" src="images/poster3.jpg">
+    <img id="myImg" src="images/poster3.jpg">
+    <img id="myImg" src="images/poster3.jpg">
+  </div>
+
+
 
   <div class="column">
     <div class="container2">
-    <a href="#PiratesOfTheCAribbean"><img id="myImg" class="image" src="images/poster2.jpg"></a>
-    <a href="#PiratesOfTheCAribbean"><div class="overlay">
+    <a href="#Spider-Man2"><img id="myImg" class="image" src="images/poster2.jpg"></a>
+    <a href="#Spider-Man2"><div class="overlay">
       <div class="text">Spider-Man 2</div>
       </div></a>
     </div>

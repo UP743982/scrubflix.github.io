@@ -14,12 +14,13 @@ body {
 
 
 .main {
-  width: 80%;
+  width: 90%;
+  padding: auto;
   margin: auto;
 }
 
 .fitScreen {
-  margin-top: 40px;
+  margin-top: -20px;
   padding: 0;
 }
 
@@ -120,6 +121,7 @@ body {
 
 .image {
   display: block;
+  border: solid 1px white;
   width: 100%;
   height: auto;
 }
@@ -149,6 +151,7 @@ body {
   color: white;
   font-size: 20px;
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
