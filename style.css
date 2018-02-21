@@ -106,18 +106,14 @@ body {
 }
 
 /* --------------           hover effect                       ----------------------------- */
-#myImg:hover {filter:drop-shadow(8px 8px 10px gray);};
 
-#myImg {
-    transition: 0.3s;
-    width: 160px;
-}
 
 /*   Image overlay effect    */
 .container2 {
   position: relative;
   width: 160px;
 }
+
 
 .image {
   display: block;

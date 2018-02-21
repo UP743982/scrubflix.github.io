@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link id="pageStyle" rel="stylesheet" type="text/css" href="style.css">
     <meta name="description" content="Scrublix is a web application providing information about movies">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/multimedia/100/play_movie_3-512.png">
@@ -15,6 +15,23 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Movie details, Release dates, Scrubflix information about movies</title>
+
+
+
+<!-- SCRIPT TO CHANGE THEME -->
+
+
+<script type="text/javascript">
+  function swapStyleSheet(sheet) {
+    document.getElementById('pageStyle').setAttribute('href', sheet);
+  }
+</script>
+
+
+
+<!-- SCRIPT TO CHANGE THEME -->
+
+
 </head>
 <body id="background-image">
 
@@ -36,8 +53,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Change Theme <span class="caret"></span></a>
           <ul class="dropdown-menu">
-                <li><a href="#">Black/Gold</a></li>
-                <li><a href="#">White/Green</a></li>
+                <a style="text-decoration: none" href="#goldtheme"><li onclick="swapStyleSheet('themes/gold.css')">Gold</li></a>
+                <a style="text-decoration: none" href="#greentheme"><li onclick="swapStyleSheet('themes/green.css')">Green</li></a>
+                <a style="text-decoration: none" href="#greentheme"><li onclick="swapStyleSheet('style.css')">Default</li></a>
           </ul>
         </li>
 
@@ -73,7 +91,7 @@
 <!--  **************************************************** CAROUSEL **************************** -->
 <!--  **************************************************** CAROUSEL **************************** -->
 
-<div style="max-width:2000px" class="fitScreen" style="width: 100%">
+<div style="max-width:2000px" class="fitScreen">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 
@@ -81,19 +99,19 @@
     <div class="carousel-inner">
       <div class="item active">
   <div class="mySlides w3-display-container w3-center">
-    <img src="images/carousel1.jpg" style="width:100%">
+    <img src="images/carousel1.jpg" style="width:100%" alt="Star Wars The Last Jedi">
   </div>
       </div>
 
       <div class="item">
   <div class="mySlides w3-display-container w3-center">
-    <img src="images/carousel2.jpg" style="width:100%">
+    <img src="images/carousel2.jpg" style="width:100%" alt="Maze Runner the Deatrh Cure">
   </div>
       </div>
     
       <div class="item">
   <div class="mySlides w3-display-container w3-center">
-    <img src="images/carousel3.jpg" style="width:100%">
+    <img src="images/carousel3.jpg" style="width:100%" alt="Justice League">
   </div>
       </div>
     </div>
@@ -127,7 +145,7 @@
 
   <div class="column">
     <div class="container2">
-    <a href="#X-MEN-TheLastStand"><img id="myImg" class="image" src="images/poster1.jpg"></a>
+    <a href="#X-MEN-TheLastStand"><img class="image" src="images/poster1.jpg"></a>
     <a href="#X-MEN-TheLastStand"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">X-MEN:<br> The Last Stand</p>
@@ -140,11 +158,11 @@
       </div>
       </div></a>
     </div>
-    <img id="myImg" src="images/poster1.jpg">
-    <img id="myImg" src="images/poster1.jpg">
-    <img id="myImg" src="images/poster1.jpg">
-    <img id="myImg" src="images/poster1.jpg">
-    <img id="myImg" src="images/poster1.jpg">
+    <img src="images/poster1.jpg">
+    <img src="images/poster1.jpg">
+    <img src="images/poster1.jpg">
+    <img src="images/poster1.jpg">
+    <img src="images/poster1.jpg">
   </div>
 
 
@@ -155,27 +173,27 @@
       <a href="#LordOfWar"><div class="text">Gladiator</div></a>
       </div>
     </div>
-    <img id="myImg" src="images/poster3.jpg">
-    <img id="myImg" src="images/poster3.jpg">
-    <img id="myImg" src="images/poster3.jpg">
-    <img id="myImg" src="images/poster3.jpg">
-    <img id="myImg" src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
   </div>
 
 
 
   <div class="column">
     <div class="container2">
-    <a href="#Spider-Man2"><img id="myImg" class="image" src="images/poster2.jpg"></a>
+    <a href="#Spider-Man2"><img class="image" src="images/poster2.jpg"></a>
     <a href="#Spider-Man2"><div class="overlay">
       <div class="text">Spider-Man 2</div>
       </div></a>
     </div>
-    <img id="myImg" src="images/poster2.jpg">
-    <img id="myImg" src="images/poster2.jpg">
-    <img id="myImg" src="images/poster2.jpg">
-    <img id="myImg" src="images/poster2.jpg">
-    <img id="myImg" src="images/poster2.jpg">
+    <img src="images/poster2.jpg">
+    <img src="images/poster2.jpg">
+    <img src="images/poster2.jpg">
+    <img src="images/poster2.jpg">
+    <img src="images/poster2.jpg">
   </div>
 
 
@@ -187,11 +205,11 @@
       <a href="#LordOfWar"><div class="text">Gladiator</div></a>
       </div>
     </div>
-    <img id="myImg" src="images/poster3.jpg">
-    <img id="myImg" src="images/poster3.jpg">
-    <img id="myImg" src="images/poster3.jpg">
-    <img id="myImg" src="images/poster3.jpg">
-    <img id="myImg" src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
+    <img src="images/poster3.jpg">
   </div>
 
 
@@ -203,11 +221,11 @@
       <div class="text">Spider-Man 3</div>
       </div>
     </div>
-    <img id="myImg" src="images/poster4.jpg">
-    <img id="myImg" src="images/poster4.jpg">
-    <img id="myImg" src="images/poster4.jpg">
-    <img id="myImg" src="images/poster4.jpg">
-    <img id="myImg" src="images/poster4.jpg">
+    <img src="images/poster4.jpg">
+    <img src="images/poster4.jpg">
+    <img src="images/poster4.jpg">
+    <img src="images/poster4.jpg">
+    <img src="images/poster4.jpg">
   </div>
 
 
@@ -219,27 +237,27 @@
       <div class="text">IceAge</div>
       </div>
     </div>
-    <img id="myImg" src="images/poster5.jpg">
-    <img id="myImg" src="images/poster5.jpg">
-    <img id="myImg" src="images/poster5.jpg">
-    <img id="myImg" src="images/poster5.jpg">
-    <img id="myImg" src="images/poster5.jpg">
+    <img src="images/poster5.jpg">
+    <img src="images/poster5.jpg">
+    <img src="images/poster5.jpg">
+    <img src="images/poster5.jpg">
+    <img src="images/poster5.jpg">
   </div>
 
 
 
     <div class="column">
       <div class="container2">
-    <img id="myImg" class="image" src="images/poster6.jpg">
+    <img class="image" src="images/poster6.jpg">
     <div class="overlay">
       <div class="text">The Magneto</div>
       </div>
     </div>
-    <img id="myImg" src="images/poster6.jpg">
-    <img id="myImg" src="images/poster6.jpg">
-    <img id="myImg" src="images/poster6.jpg">
-    <img id="myImg" src="images/poster6.jpg">
-    <img id="myImg" src="images/poster6.jpg">
+    <img src="images/poster6.jpg">
+    <img src="images/poster6.jpg">
+    <img src="images/poster6.jpg">
+    <img src="images/poster6.jpg">
+    <img src="images/poster6.jpg">
   </div>
 
 
@@ -247,48 +265,48 @@
 
   <div class="column">
     <div class="container2">
-    <a href="#Jaws"><img id="myImg" class="image" src="images/poster1.jpg"></a>
+    <a href="#Jaws"><img class="image" src="images/poster1.jpg"></a>
     <a href="#Jaws"><div class="overlay">
       <div class="text">X-MEN: The Last Stand</div>
       </div></a>
     </div>
-    <img id="myImg" src="images/poster7.jpg">
-    <img id="myImg" src="images/poster7.jpg">
-    <img id="myImg" src="images/poster7.jpg">
-    <img id="myImg" src="images/poster7.jpg">
-    <img id="myImg" src="images/poster7.jpg">
+    <img src="images/poster7.jpg">
+    <img src="images/poster7.jpg">
+    <img src="images/poster7.jpg">
+    <img src="images/poster7.jpg">
+    <img src="images/poster7.jpg">
   </div>
 
 
 
 <div class="column">
     <div class="container2">
-    <a href="#Jaws"><img id="myImg" class="image" src="images/poster1.jpg"></a>
+    <a href="#Jaws"><img class="image" src="images/poster1.jpg"></a>
     <a href="#Jaws"><div class="overlay">
       <div class="text">X-MEN: The Last Stand</div>
       </div></a>
     </div>
-    <img id="myImg" src="images/poster8.jpg">
-    <img id="myImg" src="images/poster8.jpg">
-    <img id="myImg" src="images/poster8.jpg">
-    <img id="myImg" src="images/poster8.jpg">
-    <img id="myImg" src="images/poster8.jpg">
+    <img src="images/poster8.jpg">
+    <img src="images/poster8.jpg">
+    <img src="images/poster8.jpg">
+    <img src="images/poster8.jpg">
+    <img src="images/poster8.jpg">
   </div>
 
 
 
   <div class="column">
     <div class="container2">
-    <a href="#Jaws"><img id="myImg" class="image" src="images/poster1.jpg"></a>
+    <a href="#Jaws"><img class="image" src="images/poster1.jpg"></a>
     <a href="#Jaws"><div class="overlay">
       <div class="text">X-MEN: The Last Stand</div>
       </div></a>
     </div>
-    <img id="myImg" src="images/poster9.jpg">
-    <img id="myImg" src="images/poster9.jpg">
-    <img id="myImg" src="images/poster9.jpg">
-    <img id="myImg" src="images/poster9.jpg">
-    <img id="myImg" src="images/poster9.jpg">
+    <img src="images/poster9.jpg">
+    <img src="images/poster9.jpg">
+    <img src="images/poster9.jpg">
+    <img src="images/poster9.jpg">
+    <img src="images/poster9.jpg">
   </div>
 </div>
 </div>
