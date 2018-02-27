@@ -13,6 +13,11 @@ Movie_Title CHAR(30),
 Movie_Release_date DATE,
 Movie_Genre CHAR(10));
 
+CREATE TABLE Top_20
+(Top_20ID INT(2) PRIMARY KEY,
+MovieID INT(2),
+FOREIGN KEY (MovieID) REFERENCES MOVIES(MovieID));
+
 CREATE TABLE USER_LOGIN
 (USER_LOGIN_ID INT(2) PRIMARY KEY,
 UserID INT(2),
@@ -61,3 +66,31 @@ VALUES
 INSERT INTO MOVIES
 VALUES
 (4, 'Jigsaw', '2017-10-26', 'Horror');
+INSERT INTO MOVIES
+VALUES
+(5, 'X-men the last stand', '2006-05-26', 'Action/Adventure');
+INSERT INTO MOVIES
+VALUES
+(6, 'Gladiator', '2000-05-12', 'Action/Adventure');
+INSERT INTO MOVIES
+VALUES
+(7, 'Spider man 2', '2004-07-16', 'Action/Adventure');
+INSERT INTO MOVIES
+VALUES
+(8, 'Spider man 3', '2007-05-04', 'Action/Adventure');
+INSERT INTO MOVIES
+VALUES
+(9, 'Ice Age', '2002-03-15', 'Action/Adventure');
+INSERT INTO MOVIES
+VALUES
+(10, 'The Magneto', '2017-04-13', 'Action/Adventure');
+INSERT INTO MOVIES
+VALUES
+(11, 'Kung Fu Panda', '2008-06-06', 'Action/Adventure');
+INSERT INTO MOVIES
+VALUES
+(12, 'Angels and Demons', '2009-05-14', 'Thriller');
+INSERT INTO MOVIES
+VALUES
+(13, 'House', '2008-11-07', 'Horror');
+
