@@ -1,14 +1,20 @@
 #background-image {
-  background: url(goldenpattern2.jpg) no-repeat center center fixed;
+  background: url(design/blackpattern2.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
 .container {
-  width: 40%;
+  width: 60%;
+}
+
+.genreContainer {
+  width: 95%;
 }
 
 
+
 .footer {
+    position: absolute;
     font-family: 'Raleway', sans-serif;
     left: 0;
     bottom: 0;
@@ -24,9 +30,13 @@
   width: 260px;
 }
 
-.image {
+ /* change name to .image class="image" 
+easier to read
+ */
+ 
+.imageGenre {
   display: block;
-  width: 75%;
+  width: 100%;
   height: auto;
 }
 
@@ -62,3 +72,13 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.genreText {
+  font-family: 'Raleway',sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*  image filter */

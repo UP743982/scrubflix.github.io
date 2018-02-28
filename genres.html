@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Genres</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device=width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link id="pageStyle" rel="stylesheet" type="text/css" href="style3.css">
+
+<script type="text/javascript" src="script.js"></script>
+
+
+<!-- CHANGE THEME SCRIPT -->
+
+
+<script type="text/javascript">
+  function swapStyleSheet (sheet) {
+    document.getElementById('pageStyle').setAttribute('href', sheet);
+  }
+</script>
+
+
+
+
+<!-- CHANGE THEME SCRIPT -->
+
+</head>
+<body id="background-image">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+      <a href="index.html" class="navbar-brand">SCRUBFLIX</a>
+    </div>
+    <div class="collapse navbar-collapse" id="mainNavBar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Movies</a></li>
+        <li><a href="top20.html">Top20</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Change Theme <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                <a style="text-decoration: none" href="#goldTheme"><li onclick="swapStyleSheet('themes/goldGenres.css')">Gold</li></a>
+                <a style="text-decoration: none" href="#greenTheme"><li onclick="swapStyleSheet('themes/greenGenres.css')">Green</li></a>
+                <a style="text-decoration: none" href="#greentheme"><li onclick="swapStyleSheet('style3.css')">Default</li></a>
+          </ul>
+        </li>
+
+
+        <li class="active"><a href="genres.html">Genres</a></li>
+      </ul>
+
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">LogOut</a></li>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+</nav>
+
+
+
+<!-- CONTENT -->
+<div class="container">
+    <div class="row mtb-20">
+        <div class="col-xs-12">
+            <ul class="nav nav-pills gallery-filters">
+                <li role="presentation" class="active" gallery-filter="all"><a href="#">All</a></li>
+                <li role="presentation" gallery-filter="horror"><a href="#">Horror</a></li>
+                <li role="presentation" gallery-filter="action"><a href="#">Action</a></li>
+                <li role="presentation" gallery-filter="comedy"><a href="#">Comedy</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+<br><br>
+
+
+
+
+
+
+
+
+    <div class="row">
+        <div class="col-md-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action1.jpg" class="imageGenre"/>
+        </div>
+
+        <div class="col-md-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action2.jpg" class="imageGenre"/>
+        </div>
+
+        <div class="col-md-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action3.jpg" class="imageGenre"/>
+        </div>
+
+                <div class="col-sm-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action4.jpg" class="imageGenre"/>
+        </div>
+
+        <div class="col-md-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action5.jpg" class="imageGenre"/>
+        </div>
+
+        <div class="col-md-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action6.jpg" class="imageGenre"/>
+        </div>
+        </div>
+
+        <div class="row">
+
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy1.jpg" class="imageGenre"/>
+        </div>
+
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy2.jpg" class="imageGenre"/>
+        </div>
+        
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy3.jpg" class="imageGenre"/>
+        </div>
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy4.jpg" class="imageGenre"/>
+        </div>
+                <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy5.jpg" class="imageGenre"/>
+        </div>
+        
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy6.jpg" class="imageGenre"/>
+        </div>
+
+        </div>
+
+        <div class="row">
+                  <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror1.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror2.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror3.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror4.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror5.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror6.jpg" class="imageGenre"/>
+        </div>
+
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action7.jpg" class="imageGenre"/>
+        </div>
+
+        <div class="col-md-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action8.jpg" class="imageGenre"/>
+        </div>
+
+        <div class="col-md-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action9.jpg" class="imageGenre"/>
+        </div>
+
+                <div class="col-sm-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action10.jpg" class="imageGenre"/>
+        </div>
+
+                        <div class="col-sm-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action11.jpg" class="imageGenre"/>
+        </div>
+
+                        <div class="col-sm-2 gallery-img-holder" filter-category="action" >
+            <img src="images/action/action12.jpg" class="imageGenre"/>
+        </div>
+        </div>
+
+
+
+
+        <div class="row">
+
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy7.jpg" class="imageGenre"/>
+        </div>
+
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy8.jpg" class="imageGenre"/>
+        </div>
+        
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy9.jpg" class="imageGenre"/>
+        </div>
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy10.jpg" class="imageGenre"/>
+        </div>
+                <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy11.jpg" class="imageGenre"/>
+        </div>
+        
+        <div class="col-sm-2 gallery-img-holder" filter-category="comedy" >
+            <img src="images/comedy/comedy12.jpg" class="imageGenre"/>
+        </div>
+
+        </div>
+
+
+
+        <div class="row">
+                  <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror7.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror8.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror9.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror10.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror11.jpg" class="imageGenre"/>
+        </div>
+                          <div class="col-sm-2 gallery-img-holder" filter-category="horror" >
+            <img src="images/horror/horror12.jpg" class="imageGenre"/>
+        </div>
+
+
+    </div>
+
+
+    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

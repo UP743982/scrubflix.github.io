@@ -1,14 +1,10 @@
 #background-image {
-  background: url(greenpattern2.jpg) no-repeat center center fixed;
+  background: url(green.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
 .container {
   width: 40%;
-}
-
-img {
-  
 }
 
 .footer {
@@ -29,7 +25,7 @@ img {
 
 .image {
   display: block;
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 
@@ -41,7 +37,7 @@ img {
   right: 0;
   background-color: black;
   overflow: hidden;
-  width: 100%;
+  width: 75%;
   height:0;
   transition: .5s ease;
 }
