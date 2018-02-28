@@ -21,7 +21,7 @@
 <!-- CHANGE THEME SCRIPT -->
 
 
-<script type="text/javascript">
+<script>
   function swapStyleSheet (sheet) {
     document.getElementById('pageStyle').setAttribute('href', sheet);
   }
@@ -52,21 +52,14 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Change Theme <span class="caret"></span></a>
           <ul class="dropdown-menu">
-                <a style="text-decoration: none" href="#goldTheme"><li onclick="swapStyleSheet('themes/gold20.css')">Black/Gold</li></a>
-                <a style="text-decoration: none" href="#greenTheme"><li onclick="swapStyleSheet('themes/green20.css')">White/Green</li></a>
-                <a style="text-decoration: none" href="#greentheme"><li onclick="swapStyleSheet('style2.css')">Default</li></a>
+                <li onclick="swapStyleSheet('themes/gold20.css')">Gold</li>
+                <li onclick="swapStyleSheet('themes/green20.css')">Green</li>
+                <li onclick="swapStyleSheet('style2.css')">Default</li>
           </ul>
         </li>
 
 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Genres <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Horror</a></li>
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Comedy</a></li>
-          </ul>
-        </li>
+        <li><a href="genres.html">Genres</a></li>
       </ul>
 
 
@@ -89,7 +82,6 @@
 
 
 <div class="container">
-<h3 style="color: white">Top20 Trending Movies Right Now</h3>
   <div class="row">
 
 
@@ -97,8 +89,8 @@
 
 
       <div class="container2">
-    <a href="#X-MEN-TheLastStand"><img id="myImg" class="image" src="images/top20/top1.jpg"></a>
-    <a href="#The Shawshank Redemption"><div class="overlay">
+    <img class="image" src="images/top20/top1.jpg" alt="Shawshank">
+    <a href="#TheShawshankRedemption"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Shawshank Redemption</p>
       <p style="font-size: 10px">IMDB Rating: 9.3</p>
@@ -115,8 +107,8 @@
 
 
       <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top5.jpg">
-    <a href="#Pulp Fiction"><div class="overlay">
+    <img class="image" src="images/top20/top5.jpg" alt="PulpFiction">
+    <a href="#PulpFiction"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Pulp Fiction</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -133,8 +125,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top9.jpg">
-    <a href="#The Good, the Bad and the Ugly"><div class="overlay">
+    <img class="image" src="images/top20/top9.jpg" alt="TheGoodTheBadAbdTheUgly">
+    <a href="#TheGoodtheBadandtheUgly"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Good, the Bad and the Ugly</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -150,8 +142,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top13.jpg">
-    <a href="#Forrest Gump"><div class="overlay">
+    <img class="image" src="images/top20/top13.jpg" alt="ForrestGump">
+    <a href="#ForrestGump"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Forrest Gump</p>
       <p style="font-size: 10px">IMDB Rating: 8.8</p>
@@ -169,8 +161,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top17.jpg">
-    <a href="#The Lord of the Rings: The Two Towers"><div class="overlay">
+    <img class="image" src="images/top20/top17.jpg" alt="TheLordOfTheRings">
+    <a href="#TheLordoftheRingsTheTwoTowers"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Lord of the Rings: The Two Towers</p>
       <p style="font-size: 10px">IMDB Rating: 8.7</p>
@@ -199,8 +191,8 @@
     </div>
     <div class="col-md-3">
       <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top2.jpg">
-    <a href="#The Godfather"><div class="overlay">
+    <img class="image" src="images/top20/top2.jpg" alt="thegodfather">
+    <a href="#TheGodfather"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Godfather</p>
       <p style="font-size: 10px">IMDB Rating: 9.2</p>
@@ -217,8 +209,8 @@
 
 
       <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top6.jpg">
-    <a href="#Schindler's List"><div class="overlay">
+    <img class="image" src="images/top20/top6.jpg" alt="SchindlersList">
+    <a href="#SchindlersList"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Schindler's List</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -235,8 +227,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top10.jpg">
-    <a href="#The Lord of the Rings: The Fellowship of the Ring"><div class="overlay">
+    <img class="image" src="images/top20/top10.jpg" alt="TheLordoftheRingsTheTwoTowers">
+    <a href="#TheLordoftheRingsTheFellowshipoftheRing"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Lord of the Rings:<br> The Fellowship of the Ring</p>
       <p style="font-size: 10px">IMDB Rating: 8.8</p>
@@ -252,8 +244,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top14.jpg">
-    <a href="#Star Wars: Episode V - The Empire Strikes Back"><div class="overlay">
+    <img class="image" src="images/top20/top14.jpg" alt="StarWarsEpisodeVTheEmpireStrikesBack">
+    <a href="#StarWarsEpisodeVTheEmpireStrikesBack"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Star Wars: Episode V <br> The Empire Strikes Back</p>
       <p style="font-size: 10px">IMDB Rating: 8.8</p>
@@ -271,8 +263,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top18.jpg">
-    <a href="#One Flew Over the Cuckoo's Nest"><div class="overlay">
+    <img class="image" src="images/top20/top18.jpg" alt="TheOneFlewOverTheCuckoosNest">
+    <a href="#OneFlewOvertheCuckoosNest"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">One Flew Over the Cuckoo's Nest</p>
       <p style="font-size: 10px">IMDB Rating: 8.7</p>
@@ -292,8 +284,8 @@
     </div>
     <div class="col-md-3">
             <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top3.jpg">
-    <a href="#The Dark Knight"><div class="overlay">
+    <img class="image" src="images/top20/top3.jpg" alt="TheDarkKnight">
+    <a href="#TheDarkKnight"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Dark Knight</p>
       <p style="font-size: 10px">IMDB Rating: 9.0</p>
@@ -310,8 +302,8 @@
 
 
       <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top7.jpg">
-    <a href="#The Lord of the Rings: The Return of the King"><div class="overlay">
+    <img class="image" src="images/top20/top7.jpg" alt="TheLordoftheRingsTheReturnOfTheKing">
+    <a href="#TheLordoftheRingsTheReturnoftheKing"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Lord of the Rings: <br>The Return of the King</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -328,7 +320,7 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top11.jpg">
+    <img class="image" src="images/top20/top11.jpg" alt="Inception">
     <a href="#Inception"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Inception</p>
@@ -345,8 +337,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top15.jpg">
-    <a href="#Star Wars: Episode V - The Empire Strikes Back"><div class="overlay">
+    <img class="image" src="images/top20/top15.jpg" alt="StarWarsEpisodeVTheEmpireStrikesBack">
+    <a href="#StarWarsEpisodeVTheEmpireStrikesBack"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Star Wars: Episode V <br> The Empire Strikes Back</p>
       <p style="font-size: 10px">IMDB Rating: 8.8</p>
@@ -364,8 +356,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top19.jpg">
-    <a href="#Seven Samurai"><div class="overlay">
+    <img class="image" src="images/top20/top19.jpg" alt="SevenSamurai">
+    <a href="#SevenSamurai"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Seven Samurai</p>
       <p style="font-size: 10px">IMDB Rating: 8.7</p>
@@ -385,8 +377,8 @@
     </div>
     <div class="col-md-3">
       <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top4.jpg">
-    <a href="#The Godfather: Part II"><div class="overlay">
+    <img class="image" src="images/top20/top4.jpg" alt="thegodfather">
+    <a href="#TheGodfatherPartII"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Godfather: Part II</p>
       <p style="font-size: 10px">IMDB Rating: 9.0</p>
@@ -403,8 +395,8 @@
 
 
       <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top8.jpg">
-    <a href="#12 Angry Men"><div class="overlay">
+    <img class="image" src="images/top20/top8.jpg" alt="12AngryMen">
+    <a href="#12AngryMen"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">12 Angry Men</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -421,8 +413,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top12.jpg"></a>
-    <a href="#Fight Club"><div class="overlay">
+    <img class="image" src="images/top20/top12.jpg" alt="FightClub">
+    <a href="#FightClub"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Fight Club</p>
       <p style="font-size: 10px">IMDB Rating: 8.8</p>
@@ -438,8 +430,8 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top16.jpg">
-    <a href="#The Matrix"><div class="overlay">
+    <img class="image" src="images/top20/top16.jpg" alt="TheMatrix">
+    <a href="#TheMatrix"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Matrix</p>
       <p style="font-size: 10px">IMDB Rating: 8.7</p>
@@ -457,7 +449,7 @@
 
 
 <div class="container2">
-    <img id="myImg" class="image" src="images/top20/top20.jpg">
+    <img class="image" src="images/top20/top20.jpg" alt="coco">
     <a href="#Coco"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Coco</p>
