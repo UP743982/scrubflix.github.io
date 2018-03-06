@@ -14,7 +14,6 @@
 
 
 .footer {
-    position: absolute;
     font-family: 'Raleway', sans-serif;
     left: 0;
     bottom: 0;
@@ -81,4 +80,49 @@ easier to read
   text-align: center;
 }
 
-/*  image filter */
+/*   Image overlay effect    */
+.container2 {
+  position: relative;
+  width: 160px;
+}
+
+
+.image {
+  display: block;
+  border: solid 1px white;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0.8;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+
+
+.container2:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
