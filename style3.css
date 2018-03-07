@@ -3,6 +3,10 @@
   background-size: cover;
 }
 
+h1 {
+  text-align: center;
+}
+
 .container {
   width: 60%;
 }
