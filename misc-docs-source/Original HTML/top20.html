@@ -1,0 +1,455 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>top20</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link id="pageStyle" rel="stylesheet" type="text/css" href="style2.css">
+
+    <!-- CHANGE THEME SCRIPT -->
+
+    <script>
+        function swapStyleSheet(sheet) {
+            document.getElementById('pageStyle').setAttribute('href', sheet);
+        }
+    </script>
+
+
+    <!-- CHANGE THEME SCRIPT -->
+</head>
+<body id="background-image">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">SCRUBFLIX</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Movies</a></li>
+                    <li class="active"><a href="top20.html">Top20</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Change Theme <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li onclick="swapStyleSheet('themes/gold20.css')">Gold</li>
+                            <li onclick="swapStyleSheet('themes/green20.css')">Green</li>
+                            <li onclick="swapStyleSheet('style2.css')">Default</li>
+                        </ul>
+                    </li>
+
+                    <li><a href="genres.html">Genres</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">LogOut</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <br/><br/>
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3">
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top1.jpg" alt="Shawshank">
+                    <a href="#TheShawshankRedemption">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">The Shawshank Redemption</p>
+                                <p style="font-size: 10px">IMDB Rating: 9.3</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top5.jpg" alt="Pulp Fiction">
+                    <a href="#PulpFiction">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">Pulp Fiction</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.9</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top9.jpg" alt="TheGoodTheBadAbdTheUgly">
+                    <a href="#TheGoodtheBadandtheUgly">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">The Good, the Bad and the Ugly</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.9</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top13.jpg" alt="ForrestGump">
+                    <a href="#ForrestGump">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">Forrest Gump</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.8</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top17.jpg" alt="TheLordOfTheRings">
+                    <a href="#TheLordoftheRingsTheTwoTowers">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">The Lord of the Rings: The Two Towers</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.7</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- COLUMN 2 - - - - - - - - -->
+
+
+
+
+            </div>
+            <div class="col-md-3">
+                <div class="container2">
+                    <img class="image" src="images/top20/top2.jpg" alt="thegodfather">
+                    <a href="#TheGodfather">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">The Godfather</p>
+                                <p style="font-size: 10px">IMDB Rating: 9.2</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top6.jpg" alt="SchindlersList">
+                    <a href="#SchindlersList">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">Schindler's List</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.9</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top10.jpg" alt="TheLordoftheRingsTheTwoTowers">
+                    <a href="#TheLordoftheRingsTheFellowshipoftheRing">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">The Lord of the Rings:<br/> The Fellowship of the Ring</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.8</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top14.jpg" alt="StarWarsEpisodeVTheEmpireStrikesBack">
+                    <a href="#StarWarsEpisodeVTheEmpireStrikesBack">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">Star Wars: Episode V <br/> The Empire Strikes Back</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.8</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top18.jpg" alt="TheOneFlewOverTheCuckoosNest">
+                    <a href="#OneFlewOvertheCuckoosNest">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">One Flew Over the Cuckoo's Nest</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.7</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- COLUMN 3 - - - - - - - - - - - - - - - - - - - - - - -->
+            </div>
+            <div class="col-md-3">
+                <div class="container2">
+                    <img class="image" src="images/top20/top3.jpg" alt="TheDarkKnight">
+                    <a href="#TheDarkKnight">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">The Dark Knight</p>
+                                <p style="font-size: 10px">IMDB Rating: 9.0</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top7.jpg" alt="TheLordoftheRingsTheReturnOfTheKing">
+                    <a href="#TheLordoftheRingsTheReturnoftheKing">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">The Lord of the Rings: <br/>The Return of the King</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.9</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top11.jpg" alt="Inception">
+                    <a href="#Inception">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">Inception</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.8</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top15.jpg" alt="StarWarsEpisodeVTheEmpireStrikesBack">
+                    <a href="#StarWarsEpisodeVTheEmpireStrikesBack">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">Star Wars: Episode V <br/> The Empire Strikes Back</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.8</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top19.jpg" alt="SevenSamurai">
+                    <a href="#SevenSamurai">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">Seven Samurai</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.7</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!--- COLUMN 4 - - - - - - - - - - - - - - - - - - - - - - - - -->
+            </div>
+            <div class="col-md-3">
+                <div class="container2">
+                    <img class="image" src="images/top20/top4.jpg" alt="thegodfather">
+                    <a href="#TheGodfatherPartII">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">The Godfather: Part II</p>
+                                <p style="font-size: 10px">IMDB Rating: 9.0</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top8.jpg" alt="12AngryMen">
+                    <a href="#12AngryMen">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">12 Angry Men</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.9</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top12.jpg" alt="Fight Club">
+                    <a href="#FightClub">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">Fight Club</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.8</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top16.jpg" alt="The Matrix">
+                    <a href="#TheMatrix">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">The Matrix</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.7</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="container2">
+                    <img class="image" src="images/top20/top20.jpg" alt="coco">
+                    <a href="#Coco">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">Coco</p>
+                                <p style="font-size: 10px">IMDB Rating: 8.6</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    <div class="footer">Proudly Coded</div>
+</body>
+</html>
