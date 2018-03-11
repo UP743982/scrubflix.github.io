@@ -1,0 +1,42 @@
+DATABASE
+---------------------
+CREATE TABLE USER			--USER is a reserve command in other implementations of SQL e.g. MSSQL - Change database name to USER_ACCOUNTS
+(UserID INT(2) PRIMARY KEY,
+User_FNAME CHAR(10),
+User_LNAME CHAR(10),
+User_Email CHAR(30),
+User_DOB DATE);
+
+CREATE TABLE MOVIES
+(MovieID INT(2) PRIMARY KEY,
+Movie_Title CHAR(30),			--CHAR(30) was found to be not a large enough data storage size for the data aleady manually type into table. Increased size to CHAR(50)
+Movie_Release_date DATE,
+Movie_Genre CHAR(10));			--CHAR(10) was found to be not a large enough data storage size for the data aleady manually type into table. Increased size to CHAR(30)
+
+EXPANDED DATABASE TO HAVE COLUMNS MOVIE_DESCRIPTION, MOVIE_RATING AND MOVIE_IMAGE TO FACILIATE CREATION OF SINGLULAR DYNAMIC WEB PAGE FOR MORE INFORMATION OF A SPCIFIC FILM.
+
+CHANGE DATA TYPE OF RELEASE DATE FROM DATE TO VACHAR(10) TO REMOVE TIME AND ALLOW DD/MM/YYYY FORMAT AS SDATA TYPE STRING
+
+
+STORED PROCEDURE
+---------------------
+CREATE DEFINER=`root`@`localhost` PROCEDURE `GetDetailsByMovieID`(in Movie_Selected int(2))
+BEGIN
+	select *, (select count(*) from movies where movieID = Movie_Selected) as m_Count from movies where movieID = Movie_Selected;
+END
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `GetAllMoviesWithPoster`()
+BEGIN
+	select *, (select count(*) from movies where Movie_Image != "") as m_Count from movies where Movie_Image != "" order by movie_title;
+END
+
+
+HTML CODE
+---------------------
+IMG TAGS MISSING ENDING / TO MAKE HTML5 COMPLIANT e.g <img></>
+BR TAGS MISSING ENDING / TO MAKE HTML5 COMPLIANT e.g <br/>
+LINK TAGS MISSING ENDING / TO MAKE HTML5 COMPLIANT e.g <link/>
+Re-ordered CSS to make compatible with ASPX code
+Remove duplicate Bootstrap and JQuery entries
+Change ALT tags to be more descriptive by inserting space between words
+Corrected Image captions refering to incorrect film titles
