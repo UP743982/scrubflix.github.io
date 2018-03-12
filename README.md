@@ -8,10 +8,10 @@
 # Style.css - index.html
 # Style2.css - top20.html
 # Style3.css - genre.html
-******************************************************* TEAM ************************************************************
-# Software engineering team consist of 5 people.
-# Two people are working on the back-end of the application.
-# Three people are working on the front-end of the application.
+******************************************************* NOTES ************************************************************
+GitHub commit history missing scrubflix.2.8 version of the application. Commit name was misspelled therefore source code version jumps from scrubflix.2.7 to scrubflix.2.9.
+
+Commits made by the name up778500 are invalid as username does not belong to this group and commits were made by mistake using wrong account.
 
 # Team leaders: 
 # Front-End: Lukas (UP743982/lukas112)

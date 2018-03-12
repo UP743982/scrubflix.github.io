@@ -7,7 +7,9 @@
   width: 40%;
 }
 
-
+h1 {
+  text-align: center;
+}
 
 .footer {
     font-family: 'Raleway', sans-serif;
