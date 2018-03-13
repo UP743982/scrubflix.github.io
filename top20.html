@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>top20</title>
+  <title>Top20 Movies, Scrubflix information about movies</title>
   <meta charset="utf-8">
+  <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/multimedia/100/play_movie_3-512.png">
   <meta name="viewport" content="width=device=width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,7 +16,6 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link id="pageStyle" rel="stylesheet" type="text/css" href="style2.css">
-
 
 
 <!-- CHANGE THEME SCRIPT -->
@@ -43,7 +43,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-      <a href="index.html"><img style="width: 210px" src="logo/Scrubflix red.png"></a>
+      <a href="index.html"><img style="width: 210px" src="logo/ScrubflixRed.png" alt="Scrubflix logo"></a>
     </div>
     <div class="collapse navbar-collapse" id="mainNavBar">
       <ul class="nav navbar-nav">
@@ -90,7 +90,8 @@
 
       <div class="container2">
     <img class="image" src="images/top20/top1.jpg" alt="Shawshank">
-    <a href="#TheShawshankRedemption"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalShawshank" href="#TheShawshankRedemption">
+    <div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Shawshank Redemption</p>
       <p style="font-size: 10px">IMDB Rating: 9.3</p>
@@ -105,10 +106,35 @@
       
 
 
+          <!-- Modal -->
+<div class="modal fade" id="exampleModalShawshank" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">The Shawshank Redemption</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p>
+        <p><strong>Director:</strong> Frank Darabont</p>
+        <p><strong>Writers:</strong> Stephen King (short story "Rita Hayworth and Shawshank Redemption"), Frank Darabont (screenplay)</p>
+        <p><strong>Stars:</strong> Tim Robbins, Morgan Freeman, Bob Gunton</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6hB3S9bIaco" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
       <div class="container2">
     <img class="image" src="images/top20/top5.jpg" alt="PulpFiction">
-    <a href="#PulpFiction"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalPulbFiction" href="#PulpFiction"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Pulp Fiction</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -124,9 +150,36 @@
 
 
 
+              <!-- Modal -->
+<div class="modal fade" id="exampleModalPulbFiction" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">Pulp Fiction</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</p>
+        <p><strong>Director:</strong> Quentin Tarantino</p>
+        <p><strong>Writers:</strong> Quentin Tarantino (stories), Roger Avary (stories)</p>
+        <p><strong>Stars:</strong> John Travolta, Uma Thurman, Samuel L. Jackson </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ewlwcEBTvcg" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 <div class="container2">
     <img class="image" src="images/top20/top9.jpg" alt="TheGoodTheBadAbdTheUgly">
-    <a href="#TheGoodtheBadandtheUgly"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalTheGoodtheBadandtheUgly" href="#TheGoodtheBadandtheUgly"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Good, the Bad and the Ugly</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -141,9 +194,35 @@
 
 
 
+              <!-- Modal -->
+<div class="modal fade" id="exampleModalTheGoodtheBadandtheUgly" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">The Good, the Bad and the Ugly</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.</p>
+        <p><strong>Director:</strong> Sergio Leone</p>
+        <p><strong>Writers:</strong> Luciano Vincenzoni (story), Sergio Leone (story)</p>
+        <p><strong>Stars:</strong> Clint Eastwood, Eli Wallach, Lee Van Cleef</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FUsmGOlyOUc" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <div class="container2">
     <img class="image" src="images/top20/top13.jpg" alt="ForrestGump">
-    <a href="#ForrestGump"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalForrestGump" href="#ForrestGump"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Forrest Gump</p>
       <p style="font-size: 10px">IMDB Rating: 8.8</p>
@@ -158,11 +237,36 @@
 
 
 
+              <!-- Modal -->
+<div class="modal fade" id="exampleModalForrestGump" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">Forrest Gump</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.</p>
+        <p><strong>Director:</strong> Robertas Zemeckis</p>
+        <p><strong>Writers:</strong> Winston Groom (novel), Eric Roth (screenplay)</p>
+        <p><strong>Stars:</strong> Tom Hanks, Robin Wright, Gary Sinise</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uPIEn0M8su0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
 <div class="container2">
     <img class="image" src="images/top20/top17.jpg" alt="TheLordOfTheRings">
-    <a href="#TheLordoftheRingsTheTwoTowers"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalLordOfTheRings" href="#TheLordoftheRingsTheTwoTowers"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Lord of the Rings: The Two Towers</p>
       <p style="font-size: 10px">IMDB Rating: 8.7</p>
@@ -174,6 +278,31 @@
       </div>
       </div></a>
     </div>
+
+
+              <!-- Modal -->
+<div class="modal fade" id="exampleModalLordOfTheRings" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">The Lord of the Rings: The Two Towers</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.</p>
+        <p><strong>Director:</strong> Peter Jackson</p>
+        <p><strong>Writers:</strong> J.R.R. Tolkien (novel), Fran Walsh (screenplay)</p>
+        <p><strong>Stars:</strong> Elijah Wood, Ian McKellen, Viggo Mortensen</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ve5HZfrrUqc" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -192,7 +321,7 @@
     <div class="col-md-3">
       <div class="container2">
     <img class="image" src="images/top20/top2.jpg" alt="thegodfather">
-    <a href="#TheGodfather"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalTheGodFather" href="#TheGodfather"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Godfather</p>
       <p style="font-size: 10px">IMDB Rating: 9.2</p>
@@ -207,10 +336,35 @@
       
 
 
+              <!-- Modal -->
+<div class="modal fade" id="exampleModalTheGodFather" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">The Godfather</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</p>
+        <p><strong>Director:</strong> Francis Ford Coppola</p>
+        <p><strong>Writers:</strong> Mario Puzo (screenplay by), Francis Ford Coppola (screenplay by)</p>
+        <p><strong>Stars:</strong> Marlon Brando, Al Pacino, James Caan</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fB_8VCwXydM" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
       <div class="container2">
     <img class="image" src="images/top20/top6.jpg" alt="SchindlersList">
-    <a href="#SchindlersList"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalSchindlersList" href="#SchindlersList"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Schindler's List</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -225,10 +379,35 @@
 
 
 
+              <!-- Modal -->
+<div class="modal fade" id="exampleModalSchindlersList" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">Schindler's List</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazi Germans.</p>
+        <p><strong>Director:</strong> Steven Spielberg</p>
+        <p><strong>Writers:</strong> Thomas Keneally (book), Steven Zaillian (screenplay)</p>
+        <p><strong>Stars:</strong> Liam Neeson, Ralph Fiennes, Ben Kingsley</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M5FpB6qDGAE" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <div class="container2">
     <img class="image" src="images/top20/top10.jpg" alt="TheLordoftheRingsTheTwoTowers">
-    <a href="#TheLordoftheRingsTheFellowshipoftheRing"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalTheLordoftheRingsTheFellowshipoftheRing" href="#TheLordoftheRingsTheFellowshipoftheRing"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Lord of the Rings:<br> The Fellowship of the Ring</p>
       <p style="font-size: 10px">IMDB Rating: 8.8</p>
@@ -243,9 +422,35 @@
 
 
 
+              <!-- Modal -->
+<div class="modal fade" id="exampleModalTheLordoftheRingsTheFellowshipoftheRing" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">The Lord of the Rings:<br> The Fellowship of the Ring</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.</p>
+        <p><strong>Director:</strong> Peter Jackson</p>
+        <p><strong>Writers:</strong> J.R.R. Tolkien (novel), Fran Walsh (screenplay)</p>
+        <p><strong>Stars:</strong> Elijah Wood, Ian McKellen, Orlando Bloom</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z_WZxJpHzEE" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <div class="container2">
     <img class="image" src="images/top20/top14.jpg" alt="StarWarsEpisodeVTheEmpireStrikesBack">
-    <a href="#StarWarsEpisodeVTheEmpireStrikesBack"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalStarWars" href="#StarWarsEpisodeVTheEmpireStrikesBack"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Star Wars: Episode V <br> The Empire Strikes Back</p>
       <p style="font-size: 10px">IMDB Rating: 8.8</p>
@@ -260,11 +465,38 @@
 
 
 
+              <!-- Modal -->
+<div class="modal fade" id="exampleModalStarWars" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">Star Wars: Episode V <br> The Empire Strikes Back</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>After the rebels are overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda. His friends accept shelter from a questionable ally as Darth Vader hunts them in a plan to capture Luke.</p>
+        <p><strong>Director:</strong> Irvin Kershner</p>
+        <p><strong>Writers:</strong> Leigh Brackett (screenplay by), Lawrence Kasdan (screenplay by)</p>
+        <p><strong>Stars:</strong> Mark Hamill, Harrison Ford, Carrie Fisher</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JNwNXF9Y6kY" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
 
 <div class="container2">
     <img class="image" src="images/top20/top18.jpg" alt="TheOneFlewOverTheCuckoosNest">
-    <a href="#OneFlewOvertheCuckoosNest"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalOneFlew" href="#OneFlewOvertheCuckoosNest"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">One Flew Over the Cuckoo's Nest</p>
       <p style="font-size: 10px">IMDB Rating: 8.7</p>
@@ -279,13 +511,40 @@
 
 
 
+
+                  <!-- Modal -->
+<div class="modal fade" id="exampleModalOneFlew" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">One Flew Over the Cuckoo's Nest</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>A criminal pleads insanity after getting into trouble again and once in the mental institution rebels against the oppressive nurse and rallies up the scared patients.</p>
+        <p><strong>Director:</strong> Milos Forman</p>
+        <p><strong>Writers:</strong> Lawrence Hauben (screenplay), Bo Goldman (screenplay)</p>
+        <p><strong>Stars:</strong> Jack Nicholson, Louise Fletcher, Michael Berryman</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_A4bCifObI4" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <!-- COLUMN 3 - - - - - - - - - - - - - - - - - - - - - - --> 
 
     </div>
     <div class="col-md-3">
             <div class="container2">
     <img class="image" src="images/top20/top3.jpg" alt="TheDarkKnight">
-    <a class="btn-primary" data-toggle="modal" data-target="#exampleModal" href="#TheDarkKnight">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalTheDarkKnight" href="#TheDarkKnight">
     <div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Dark Knight</p>
@@ -296,16 +555,16 @@
     <span style="color: yellow" class="fa fa-star"></span>
     <span style="color: yellow" class="fa fa-star"></span>
       </div>
+      </div></a>
       </div>
-    </div></a>
 
 
     <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModalTheDarkKnight" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title" id="exampleModalLabel">The Dark Knight</h1>
+        <h1 class="modal-title">The Dark Knight</h1>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -315,7 +574,7 @@
         <p><strong>Director:</strong> Christopher Nolan</p>
         <p><strong>Writers:</strong> Jonathan Nolan (screenplay), Christopher Nolan (screenplay)</p>
         <p><strong>Stars:</strong> Christian Bale, Heath Ledger, Aaron Eckhart</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GVx5K8WfFJY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GVx5K8WfFJY" allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -329,7 +588,7 @@
 
       <div class="container2">
     <img class="image" src="images/top20/top7.jpg" alt="TheLordoftheRingsTheReturnOfTheKing">
-    <a href="#TheLordoftheRingsTheReturnoftheKing"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalLOTR" href="#TheLordoftheRingsTheReturnoftheKing"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Lord of the Rings: <br>The Return of the King</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -342,6 +601,31 @@
       </div></a>
     </div>
 
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalLOTR" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">The Lord of the Rings: <br>The Return of the King</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</p>
+        <p><strong>Director:</strong> Peter Jackson</p>
+        <p><strong>Writers:</strong> J.R.R. Tolkien (novel), Fran Walsh (screenplay)</p>
+        <p><strong>Stars:</strong> Elijah Wood, Viggo Mortensen, Ian McKellen</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KOQSQaGgJxs" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -358,17 +642,17 @@
     <span style="color: yellow" class="fa fa-star"></span>
     <span style="color: yellow" class="fa fa-star"></span>
       </div>
-      </div>
-    </div></a>
+      </div></a>
+    </div>
 
 
 
     <!-- Modal -->
-<div class="modal fade" id="exampleModalInception" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModalInception" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title" id="exampleModalLabel">Inception</h1>
+        <h1 class="modal-title">Inception</h1>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -378,7 +662,7 @@
         <p><strong>Director:</strong> Christopher Nolan</p>
         <p><strong>Writers:</strong> Christopher Nolan</p>
         <p><strong>Stars:</strong> Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page</p>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/d3A3-zSOBT4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/d3A3-zSOBT4" allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -392,10 +676,10 @@
 
 <div class="container2">
     <img class="image" src="images/top20/top15.jpg" alt="StarWarsEpisodeVTheEmpireStrikesBack">
-    <a href="#StarWarsEpisodeVTheEmpireStrikesBack"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalGoodfellas" href="#Goodfellas"><div class="overlay">
       <div class="text">
-      <p style="font-size: 20px">Star Wars: Episode V <br> The Empire Strikes Back</p>
-      <p style="font-size: 10px">IMDB Rating: 8.8</p>
+      <p style="font-size: 20px">Goodfellas</p>
+      <p style="font-size: 10px">IMDB Rating: 8.7</p>
     <span style="color: yellow" class="fa fa-star"></span>
     <span style="color: yellow" class="fa fa-star"></span>
     <span style="color: yellow" class="fa fa-star"></span>
@@ -407,11 +691,36 @@
 
 
 
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalGoodfellas" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">Goodfellas</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.</p>
+        <p><strong>Director:</strong> Martin Scorsese</p>
+        <p><strong>Writers:</strong> Nicholas Pileggi (book), Nicholas Pileggi (screenplay)</p>
+        <p><strong>Stars:</strong> Robert De Niro, Ray Liotta, Joe Pesci</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/qo5jJpHtI1Y" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
 <div class="container2">
     <img class="image" src="images/top20/top19.jpg" alt="SevenSamurai">
-    <a href="#SevenSamurai"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalSevenSamurai" href="#SevenSamurai"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Seven Samurai</p>
       <p style="font-size: 10px">IMDB Rating: 8.7</p>
@@ -424,6 +733,32 @@
       </div></a>
     </div>
       
+
+
+
+          <!-- Modal -->
+<div class="modal fade" id="exampleModalSevenSamurai" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">Seven Samurai</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.</p>
+        <p><strong>Director:</strong> Akira Kurosawa</p>
+        <p><strong>Writers:</strong> Akira Kurosawa (screenplay), Shinobu Hashimoto (screenplay)</p>
+        <p><strong>Stars:</strong> Toshirô Mifune, Takashi Shimura, Keiko Tsushima</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/7mw6LyyoeGE" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
    
 
 <!--- COLUMN 4 - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -432,7 +767,7 @@
     <div class="col-md-3">
       <div class="container2">
     <img class="image" src="images/top20/top4.jpg" alt="thegodfather">
-    <a href="#TheGodfatherPartII"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalTheGodFather2" href="#TheGodfatherPartII"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">The Godfather: Part II</p>
       <p style="font-size: 10px">IMDB Rating: 9.0</p>
@@ -446,11 +781,35 @@
     </div>
       
 
+          <!-- Modal -->
+<div class="modal fade" id="exampleModalTheGodFather2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">The Godfather: Part II</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.</p>
+        <p><strong>Director:</strong> Francis Ford Coppola</p>
+        <p><strong>Writers:</strong> Francis Ford Coppola (screenplay by), Mario Puzo (screenplay by)</p>
+        <p><strong>Stars:</strong> Al Pacino, Robert De Niro, Robert Duvall</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/8PyZCU2vpi8" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
       <div class="container2">
     <img class="image" src="images/top20/top8.jpg" alt="12AngryMen">
-    <a href="#12AngryMen"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModal12AngryMen" href="#12AngryMen"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">12 Angry Men</p>
       <p style="font-size: 10px">IMDB Rating: 8.9</p>
@@ -466,9 +825,35 @@
 
 
 
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal12AngryMen" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">12 Angry Men</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.</p>
+        <p><strong>Director:</strong> Sidney Lumet</p>
+        <p><strong>Writers:</strong> Reginald Rose (story), Reginald Rose (screenplay)</p>
+        <p><strong>Stars:</strong> Henry Fonda, Lee J. Cobb, Martin Balsam</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4Ym5vBfk50" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <div class="container2">
     <img class="image" src="images/top20/top12.jpg" alt="FightClub">
-    <a href="#FightClub"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalFightClub" href="#FightClub"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Fight Club</p>
       <p style="font-size: 10px">IMDB Rating: 8.8</p>
@@ -481,6 +866,32 @@
       </div></a>
     </div>
 
+
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalFightClub" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">Fight Club</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soapmaker, forming an underground fight club that evolves into something much, much more.</p>
+        <p><strong>Director:</strong> David Fincher</p>
+        <p><strong>Writers:</strong> Chuck Palahniuk (novel), Jim Uhls (screenplay)</p>
+        <p><strong>Stars:</strong> Brad Pitt, Edward Norton, Meat Loaf</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/BdJKm16Co6M" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <div class="container2">
@@ -496,18 +907,18 @@
     <span style="color: yellow" class="fa fa-star"></span>
     <span class="fa fa-star"></span>
       </div>
-      </div>
-    </div></a>
+      </div></a>
+    </div>
 
 
 
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalTheMatrix" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModalTheMatrix" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title" id="exampleModalLabel">The Matrix</h1>
+        <h1 class="modal-title">The Matrix</h1>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -517,7 +928,7 @@
         <p><strong>Director:</strong> Lana Wachowski (as The Wachowski Brothers), Lilly Wachowski (as The Wachowski Brothers)</p>
         <p><strong>Writer:</strong> Lilly Wachowski (as The Wachowski Brothers), Lana Wachowski (as The Wachowski Brothers)</p>
         <p><strong>Stars:</strong> Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss </p>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8g9zL-JL8E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8g9zL-JL8E" allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -532,7 +943,7 @@
 
 <div class="container2">
     <img class="image" src="images/top20/top20.jpg" alt="coco">
-    <a href="#Coco"><div class="overlay">
+    <a class="btn-primary" data-toggle="modal" data-target="#exampleModalCoco" href="#Coco"><div class="overlay">
       <div class="text">
       <p style="font-size: 20px">Coco</p>
       <p style="font-size: 10px">IMDB Rating: 8.6</p>
@@ -544,6 +955,33 @@
       </div>
       </div></a>
     </div>
+
+
+
+
+        <!-- Modal -->
+<div class="modal fade" id="exampleModalCoco" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title">Coco</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.</p>
+        <p><strong>Director:</strong> Lee Unkrich, Adrian Molina (co-director)</p>
+        <p><strong>Writers:</strong> Lee Unkrich (original story by), Jason Katz (original story by)</p>
+        <p><strong>Stars:</strong> Anthony Gonzalez, Gael García Bernal, Benjamin Bratt</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/zNCz4mQzfEI" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
       
 
   </div>
