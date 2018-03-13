@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="pageStyle" rel="stylesheet" type="text/css" href="style.css">
+    <meta name="description" content="Scrublix is a web application providing information about movies">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/multimedia/100/play_movie_3-512.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Movie details, Release dates, Scrubflix information about movies</title>
+
+    <!-- SCRIPT TO CHANGE THEME -->
+
+    <script>
+        function swapStyleSheet(sheet) {
+            document.getElementById('pageStyle').setAttribute('href', sheet);
+        }
+    </script>
+
+    <!-- SCRIPT TO CHANGE THEME -->
+
+</head>
+<body id="background-image">
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">SCRUBFLIX</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Movies</a></li>
+                    <li><a href="top20.html">Top20</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Change Theme <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li onclick="swapStyleSheet('themes/gold.css')">Gold</li>
+                            <li onclick="swapStyleSheet('themes/green.css')">Green</li>
+                            <li onclick="swapStyleSheet('style.css')">Default</li>
+                        </ul>
+                    </li>
+
+                    <li><a href="genres.html">Genres</a></li>
+                </ul>
+
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input class="inputText" type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!--  **************************************************** CAROUSEL **************************** -->
+    <!--  **************************************************** CAROUSEL **************************** -->
+    <div style="max-width:2000px" class="fitScreen">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="mySlides w3-display-container w3-center">
+                        <img src="images/carousel1.jpg" style="width:100%" alt="Star Wars The Last Jedi">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="mySlides w3-display-container w3-center">
+                        <img src="images/carousel2.jpg" style="width:100%" alt="Maze Runner the Deatrh Cure">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="mySlides w3-display-container w3-center">
+                        <img src="images/carousel3.jpg" style="width:100%" alt="Justice League">
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!--  ********************************************** CAROUSEL **************************** -->
+    <!--  **************************************************** CAROUSEL **************************** -->
+
+
+
+    <div class="main">
+        <div class="row">
+
+            <div class="column">
+                <div class="container2">
+                    <a href="#X-MEN-TheLastStand"><img class="image" src="images/poster1.jpg" alt="X-men poster"></a>
+                    <a href="#X-MEN-TheLastStand">
+                        <div class="overlay">
+                            <div class="text">
+                                <p style="font-size: 20px">X-MEN:<br/> The Last Stand</p>
+                                <p style="font-size: 10px">IMDB Rating: 6.7</p>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span style="color: yellow" class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/poster1.jpg" alt="X-men poster">
+                <img src="images/poster1.jpg" alt="X-men poster">
+                <img src="images/poster1.jpg" alt="X-men poster">
+                <img src="images/poster1.jpg" alt="X-men poster">
+                <img src="images/poster1.jpg" alt="X-men poster">
+            </div>
+
+            <div class="column">
+                <div class="container2">
+                    <a href="#LordOfWar"><img id="myImg" class="image" src="images/poster3.jpg" alt="LordOfWar"></a>
+                    <div class="overlay">
+                        <a href="#LordOfWar"><div class="text">Gladiator</div></a>
+                    </div>
+                </div>
+                <img src="images/poster3.jpg" alt="LordOfWar">
+                <img src="images/poster3.jpg" alt="LordOfWar">
+                <img src="images/poster3.jpg" alt="LordOfWar">
+                <img src="images/poster3.jpg" alt="LordOfWar">
+                <img src="images/poster3.jpg" alt="LordOfWar">
+            </div>
+
+            <div class="column">
+                <div class="container2">
+                    <a href="#Spider-Man2"><img class="image" src="images/poster2.jpg" alt="Spider-Man2"></a>
+                    <a href="#Spider-Man2">
+                        <div class="overlay">
+                            <div class="text">Spider-Man 2</div>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/poster2.jpg" alt="Spider-Man2">
+                <img src="images/poster2.jpg" alt="Spider-Man2">
+                <img src="images/poster2.jpg" alt="Spider-Man2">
+                <img src="images/poster2.jpg" alt="Spider-Man2">
+                <img src="images/poster2.jpg" alt="Spider-Man2">
+            </div>
+
+            <div class="column">
+                <div class="container2">
+                    <a href="#LordOfWar"><img class="image" src="images/poster3.jpg" alt="LordOfWar"></a>
+                    <div class="overlay">
+                        <a href="#LordOfWar"><div class="text">Gladiator</div></a>
+                    </div>
+                </div>
+                <img src="images/poster3.jpg" alt="LordOfWar">
+                <img src="images/poster3.jpg" alt="LordOfWar">
+                <img src="images/poster3.jpg" alt="LordOfWar">
+                <img src="images/poster3.jpg" alt="LordOfWar">
+                <img src="images/poster3.jpg" alt="LordOfWar">
+            </div>
+
+            <div class="column">
+                <div class="container2">
+                    <img class="image" src="images/poster4.jpg" alt="Spider-Man3">
+                    <div class="overlay">
+                        <div class="text">Spider-Man 3</div>
+                    </div>
+                </div>
+                <img src="images/poster4.jpg" alt="Spider-Man3">
+                <img src="images/poster4.jpg" alt="Spider-Man3">
+                <img src="images/poster4.jpg" alt="Spider-Man3">
+                <img src="images/poster4.jpg" alt="Spider-Man3">
+                <img src="images/poster4.jpg" alt="Spider-Man3">
+            </div>
+
+            <div class="column">
+                <div class="container2">
+                    <img class="image" src="images/poster5.jpg" alt="IceAge">
+                    <div class="overlay">
+                        <div class="text">IceAge</div>
+                    </div>
+                </div>
+                <img src="images/poster5.jpg" alt="IceAge">
+                <img src="images/poster5.jpg" alt="IceAge">
+                <img src="images/poster5.jpg" alt="IceAge">
+                <img src="images/poster5.jpg" alt="IceAge">
+                <img src="images/poster5.jpg" alt="IceAge">
+            </div>
+
+            <div class="column">
+                <div class="container2">
+                    <img class="image" src="images/poster6.jpg" alt="Magneto">
+                    <div class="overlay">
+                        <div class="text">The Magneto</div>
+                    </div>
+                </div>
+                <img src="images/poster6.jpg" alt="Magneto">
+                <img src="images/poster6.jpg" alt="Magneto">
+                <img src="images/poster6.jpg" alt="Magneto">
+                <img src="images/poster6.jpg" alt="Magneto">
+                <img src="images/poster6.jpg" alt="Magneto">
+            </div>
+
+
+            <div class="column">
+                <div class="container2">
+                    <a href="#Jaws"><img class="image" src="images/poster1.jpg" alt="Jaws"></a>
+                    <a href="#Jaws">
+                        <div class="overlay">
+                            <div class="text">X-MEN: The Last Stand</div>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/poster7.jpg" alt="Jaws">
+                <img src="images/poster7.jpg" alt="Jaws">
+                <img src="images/poster7.jpg" alt="Jaws">
+                <img src="images/poster7.jpg" alt="Jaws">
+                <img src="images/poster7.jpg" alt="Jaws">
+            </div>
+
+            <div class="column">
+                <div class="container2">
+                    <a href="#Jaws"><img class="image" src="images/poster1.jpg" alt="Jaws"></a>
+                    <a href="#Jaws">
+                        <div class="overlay">
+                            <div class="text">X-MEN: The Last Stand</div>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/poster8.jpg" alt="Jaws">
+                <img src="images/poster8.jpg" alt="Jaws">
+                <img src="images/poster8.jpg" alt="Jaws">
+                <img src="images/poster8.jpg" alt="Jaws">
+                <img src="images/poster8.jpg" alt="Jaws">
+            </div>
+
+            <div class="column">
+                <div class="container2">
+                    <a href="#Jaws"><img class="image" src="images/poster1.jpg" alt="Jaws"></a>
+                    <a href="#Jaws">
+                        <div class="overlay">
+                            <div class="text">X-MEN: The Last Stand</div>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/poster9.jpg" alt="Jaws">
+                <img src="images/poster9.jpg" alt="Jaws">
+                <img src="images/poster9.jpg" alt="Jaws">
+                <img src="images/poster9.jpg" alt="Jaws">
+                <img src="images/poster9.jpg" alt="Jaws">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">proudly coded</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>

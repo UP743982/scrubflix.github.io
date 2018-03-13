@@ -1,0 +1,16 @@
+﻿.resize-image {
+	border: solid 1px white;
+	margin: 20px;
+}
+
+.line-space {
+	height: 20px;
+}
+
+.flex-wrap {
+	display: -webkit-flex; /* Safari */
+	-webkit-flex-wrap: wrap; /* Safari 6.1+ */
+	display: flex;
+	flex-wrap: wrap;
+}
+
