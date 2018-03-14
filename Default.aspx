@@ -50,7 +50,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="Default.aspx" class="navbar-brand">SCRUBFLIX</a>
+					<a href="Default.aspx"><img style="width: 210px;" src="logo/ScrubflixRed.png" alt="Scrubflix logo"/></a>
 				</div>
 				<div class="collapse navbar-collapse" id="mainNavBar">
 					<ul class="nav navbar-nav">
@@ -82,18 +82,18 @@
 				<div class="carousel-inner">
 					<div class="item active">
 						<div class="mySlides w3-display-container w3-center">
-							<img src="images/carousel1.jpg" style="width: 100%; max-height: 500px" alt="Star Wars The Last Jedi">
+							<img src="images/carousel1.jpg" style="width: 100%; max-height: 800px" alt="Star Wars The Last Jedi">
 						</div>
 					</div>
 					<div class="item">
 						<div class="mySlides w3-display-container w3-center">
-							<img src="images/carousel2.jpg" style="width: 100%; max-height: 500px" alt="Maze Runner the Deatrh Cure">
+							<img src="images/carousel2.jpg" style="width: 100%; max-height: 800px" alt="Maze Runner the Deatrh Cure">
 						</div>
 					</div>
 
 					<div class="item">
 						<div class="mySlides w3-display-container w3-center">
-							<img src="images/carousel3.jpg" style="width: 100%; max-height: 500px" alt="Justice League">
+							<img src="images/carousel3.jpg" style="width: 100%; max-height: 800px" alt="Justice League">
 						</div>
 					</div>
 				</div>

@@ -50,7 +50,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="Default.aspx" class="navbar-brand">SCRUBFLIX</a>
+					<a href="Default.aspx"><img style="width: 210px;" src="logo/ScrubflixRed.png" alt="Scrubflix logo"/></a>
 				</div>
 				<div class="collapse navbar-collapse" id="mainNavBar">
 					<ul class="nav navbar-nav">
@@ -76,7 +76,7 @@
 		<br />
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<div class="container2">
 						<img class="image" src="images/top20/top1.jpg" alt="Shawshank" />
 						<a href="movie-detail.aspx?MovieID=14">
@@ -141,24 +141,8 @@
 							</div>
 						</a>
 					</div>
-					<div class="container2">
-						<img class="image" src="images/top20/top17.jpg" alt="The Lord of The Rings The Two Towers" />
-						<a href="movie-detail.aspx?MovieID=18">
-							<div class="overlay">
-								<div class="text">
-									<p style="font-size: 20px">The Lord of the Rings: The Two Towers</p>
-									<p style="font-size: 10px">IMDB Rating: 8.7</p>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-								</div>
-							</div>
-						</a>
-					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<div class="container2">
 						<img class="image" src="images/top20/top2.jpg" alt="The God Father" />
 						<a href="movie-detail.aspx?MovieID=19">
@@ -182,25 +166,6 @@
 								<div class="text">
 									<p style="font-size: 20px">Schindler's List</p>
 									<p style="font-size: 10px">IMDB Rating: 8.9</p>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="container2">
-						<img class="image" src="images/top20/top10.jpg" alt="The Lord of The Rings The Fellowship of The Ring" />
-						<a href="movie-detail.aspx?MovieID=21">
-							<div class="overlay">
-								<div class="text">
-									<p style="font-size: 20px">
-										The Lord of the Rings:<br />
-										The Fellowship of the Ring
-									</p>
-									<p style="font-size: 10px">IMDB Rating: 8.8</p>
 									<span style="color: yellow" class="fa fa-star"></span>
 									<span style="color: yellow" class="fa fa-star"></span>
 									<span style="color: yellow" class="fa fa-star"></span>
@@ -247,7 +212,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<div class="container2">
 						<img class="image" src="images/top20/top3.jpg" alt="The Dark Knight" />
 						<a href="movie-detail.aspx?MovieID=24">
@@ -320,6 +285,43 @@
 							</div>
 						</a>
 					</div>
+                    </div>
+                				<div class="col-md-2">
+<div class="container2">
+						<img class="image" src="images/top20/top10.jpg" alt="The Lord of The Rings The Fellowship of The Ring" />
+						<a href="movie-detail.aspx?MovieID=21">
+							<div class="overlay">
+								<div class="text">
+									<p style="font-size: 20px">
+										The Lord of the Rings:<br />
+										The Fellowship of the Ring
+									</p>
+									<p style="font-size: 10px">IMDB Rating: 8.8</p>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="container2">
+						<img class="image" src="images/top20/top17.jpg" alt="The Lord of The Rings The Two Towers" />
+						<a href="movie-detail.aspx?MovieID=18">
+							<div class="overlay">
+								<div class="text">
+									<p style="font-size: 20px">The Lord of the Rings: The Two Towers</p>
+									<p style="font-size: 10px">IMDB Rating: 8.7</p>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+								</div>
+							</div>
+						</a>
+					</div>
 					<div class="container2">
 						<img class="image" src="images/top20/top19.jpg" alt="SevenSamurai" />
 						<a href="movie-detail.aspx?MovieID=28">
@@ -336,8 +338,24 @@
 							</div>
 						</a>
 					</div>
-				</div>
-				<div class="col-md-3">
+					<div class="container2">
+						<img class="image" src="images/top20/top20.jpg" alt="coco" />
+						<a href="movie-detail.aspx?MovieID=33">
+							<div class="overlay">
+								<div class="text">
+									<p style="font-size: 20px">Coco</p>
+									<p style="font-size: 10px">IMDB Rating: 8.6</p>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+									<span style="color: yellow" class="fa fa-star"></span>
+								</div>
+							</div>
+						</a>
+					</div>
+                    </div>
+				<div class="col-md-2">
 					<div class="container2">
 						<img class="image" src="images/top20/top4.jpg" alt="The God Father Part II" />
 						<a href="movie-detail.aspx?MovieID=29">
@@ -398,22 +416,6 @@
 									<span style="color: yellow" class="fa fa-star"></span>
 									<span style="color: yellow" class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="container2">
-						<img class="image" src="images/top20/top20.jpg" alt="coco" />
-						<a href="movie-detail.aspx?MovieID=33">
-							<div class="overlay">
-								<div class="text">
-									<p style="font-size: 20px">Coco</p>
-									<p style="font-size: 10px">IMDB Rating: 8.6</p>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
-									<span style="color: yellow" class="fa fa-star"></span>
 								</div>
 							</div>
 						</a>

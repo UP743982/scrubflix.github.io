@@ -4,8 +4,10 @@
 }
 
 .container {
-  width: 40%;
+  width: 80%;
+  margin-right: 50px;
 }
+
 
 .footer {
     font-family: 'Raleway', sans-serif;
@@ -27,20 +29,21 @@
   display: block;
   width: 75%;
   height: auto;
+  padding: 10px 20px 10px 20px;
 }
 
 
 .overlay {
-  position: absolute;
-  opacity: 0.8;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: black;
-  overflow: hidden;
-  width: 75%;
-  height:0;
-  transition: .5s ease;
+    position: absolute;
+    opacity: 0.8;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 75%;
+    height: 0;
+    transition: .5s ease;
 }
 
 
