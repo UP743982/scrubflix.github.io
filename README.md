@@ -11,18 +11,18 @@ Software Engineering Coursework. Web Application "SCRUBFLIX" shows information a
 # Style3.css - genre.html
 
 
-#****** HOW IT WORKS ******
+# ****** HOW IT WORKS ******
 
-#****** HOW IT WORKS ******
-#****** NOTES ******
+# ****** HOW IT WORKS ******
+# ****** NOTES ******
 GitHub commit history missing scrubflix.2.8 version of the application. Commit name was misspelled therefore source code version jumps from scrubflix.2.7 to scrubflix.2.9.
 
 Commits made by the name up778500 are invalid as username does not belong to this group and commits were made by mistake using wrong account.
-#****** NOTES ******
+# ****** NOTES ******
 
-#****** HOW TO INSTALL AND RUN THE APP ******
+# ****** HOW TO INSTALL AND RUN THE APP ******
 Explanation how to run the program.
-#****** HOW TO INSTALL AND RUN THE APP ******
+# ****** HOW TO INSTALL AND RUN THE APP ******
 
 # Team leaders: 
 # Front-End: Lukas (UP743982/lukas112)
