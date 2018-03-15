@@ -12,8 +12,21 @@ Software Engineering Coursework. Web Application "SCRUBFLIX" shows information a
 
 
 # ****** HOW IT WORKS ******
-
+# Scrubflix web app is written in html/css and javaScript languages. Back end is written using mySQL and Visual Studios. 
+# During video presentation of the application narrator walked through the app features.
+# "Movies" and "Top20" pages are connected to the database. Loading time is fast. Each movie have unique id in the database. It is all pointed out during video presentation.
+# It is important to point out that "Genres" page is not connected to the databse therefore loading time increased significantly (around 10 seconds).
+Other pages in comparison load data from the databse and loading time goes down to minimum (faster than 1 second).
+# "Change theme" feature works under number of different stylesheets.
 # ****** HOW IT WORKS ******
+
+# ****** THINGS TO DO ******
+# There are "Search" bar on the front page of the website. It does not work and need further development to the system.
+# There was also idea to make login page for the web app. It was not implemented because of two reasons: 
+1. Scrubflix is public app and does not contain any data regarding user security or privacy therefore login feature is not essential.
+2. Did not have enough time to implement it.
+# ****** THINGS TO DO ******
+
 # ****** NOTES ******
 GitHub commit history missing scrubflix.2.8 version of the application. Commit name was misspelled therefore source code version jumps from scrubflix.2.7 to scrubflix.2.9.
 
