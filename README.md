@@ -18,20 +18,18 @@ Software Engineering Coursework. Web Application "SCRUBFLIX" shows information a
 # It is important to point out that "Genres" page is not connected to the databse therefore loading time increased significantly (around 10 seconds).
 Other pages in comparison load data from the databse and loading time goes down to minimum (faster than 1 second).
 # "Change theme" feature works under number of different stylesheets.
-# ****** HOW IT WORKS ******
 
 # ****** THINGS TO DO ******
 # There are "Search" bar on the front page of the website. It does not work and need further development to the system.
 # There was also idea to make login page for the web app. It was not implemented because of two reasons: 
 1. Scrubflix is public app and does not contain any data regarding user security or privacy therefore login feature is not essential.
 2. Did not have enough time to implement it.
-# ****** THINGS TO DO ******
 
 # ****** NOTES ******
 GitHub commit history missing scrubflix.2.8 version of the application. Commit name was misspelled therefore source code version jumps from scrubflix.2.7 to scrubflix.2.9.
 
 Commits made by the name up778500 are invalid as username does not belong to this group and commits were made by mistake using wrong account.
-# ****** NOTES ******
+
 
 # ****** HOW TO INSTALL AND RUN THE APP ******
 To view this website two applications are required:
