@@ -34,9 +34,12 @@ Commits made by the name up778500 are invalid as username does not belong to thi
 # ****** NOTES ******
 
 # ****** HOW TO INSTALL AND RUN THE APP ******
-Explanation how to run the program.
-# ****** HOW TO INSTALL AND RUN THE APP ******
-
+To view this website two applications are required:
+  #Visual Studio 15 (free)
+  #MySQLWorkbench
+  Open MysqlWorkbench. Add new Schemas. Call it Scrubflix and Apply. Select Data Import/Restore. Browse for scrubflix databasae:\Users\MPorter\Documents\Visual Studio 2015\WebSites\scrubflix\misc-docs-source\scrubfix.sql. Select import.
+  Open Visual Studio. loacte project-File/Open/Website then browse for the project location. Run project or use shortcut Ctrl+F5
+ 
 # Team leaders: 
 # Front-End: Lukas (UP743982/lukas112)
 # Back-End: Mark (UP815941)
